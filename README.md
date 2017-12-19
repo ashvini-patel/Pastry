@@ -37,11 +37,11 @@ Implementation details:
 
   Observed values of AVG Hop count
 
--|No. of Nodes | No. of Requests |  Avg. count|
--|10           | 30              |   0.9      |
--|100          | 30              |   1.55     |
--|1,000        | 10              |  2.3       |
--|10,000       | 10              |  3.03      |
--|50,000       | 5               | 3.64       |
+- |No. of Nodes | No. of Requests |  Avg. count|
+- |10           | 30              |   0.9      |
+- |100          | 30              |   1.55     |
+- |1,000        | 10              |  2.3       |
+- |10,000       | 10              |  3.03      |
+- |50,000       | 5               | 3.64       |
 
 Largest network: 50,000 pastry nodes sending 10 requests each. This is beacuse of memory limitation on the systems avaliabe (16GB). If a machine with more memory is avaliable, this code can scale to many more nodes.
