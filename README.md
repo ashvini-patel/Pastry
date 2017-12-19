@@ -16,10 +16,10 @@ Team Members:
 Implementation details:
   The pastry network configuration constants are as follows:
   
->  b=4 i.e. node id's are in base 16 (2^b)
->  l=32 i.e size of leaf set
->  The routing table has 16 columns with upto 32 rows.
->  md5 algoritm used to generate 128 bit node id's and request keys. 
+-  b=4 i.e. node id's are in base 16 (2^b)
+-  l=32 i.e size of leaf set
+-  The routing table has 16 columns with upto 32 rows.
+-  md5 algoritm used to generate 128 bit node id's and request keys. 
   
 ####  Input
 
@@ -37,11 +37,11 @@ Implementation details:
 
   Observed values of AVG Hop count
 
-|No. of Nodes | No. of Requests |  Avg. count|
-|10           | 30             |   0.9|
-|100          | 30             |   1.55|
-|1,000        | 10             |  2.3|
-|10,000       | 10             |  3.03|
-|50,000       | 5              | 3.64|
+-|No. of Nodes | No. of Requests |  Avg. count|
+-|10           | 30              |   0.9      |
+-|100          | 30              |   1.55     |
+-|1,000        | 10              |  2.3       |
+-|10,000       | 10              |  3.03      |
+-|50,000       | 5               | 3.64       |
 
 Largest network: 50,000 pastry nodes sending 10 requests each. This is beacuse of memory limitation on the systems avaliabe (16GB). If a machine with more memory is avaliable, this code can scale to many more nodes.
