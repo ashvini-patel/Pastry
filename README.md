@@ -10,8 +10,8 @@ matrix.ex is a module avalaibe on the internet which provides a 2-D array implem
 >  Author: Daniel K.
   
 Team Members:
->  1) Dhruv Mahajan, UFID: 42111994
->  2) Ashvini Patel, UFID: 47949297
+>  1) Dhruv Mahajan
+>  2) Ashvini Patel
 
 Implementation details:
   The pastry network configuration constants are as follows:
